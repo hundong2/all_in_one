@@ -1,0 +1,48 @@
+{
+  "date": "2026-02-15",
+  "candidate_papers": [
+    {
+      "paper_id": "arxiv_2406_openvla",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "domain": "VLM",
+      "scores": {"novelty": 8.7, "reproducibility": 8.5, "resource_cost": 6.0},
+      "weighted_total": 7.98,
+      "selected": true
+    },
+    {
+      "paper_id": "rt2_2023",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "domain": "Robotics",
+      "scores": {"novelty": 8.4, "reproducibility": 7.0, "resource_cost": 5.0},
+      "weighted_total": 7.08,
+      "selected": true
+    },
+    {
+      "paper_id": "diffusion_policy_2023",
+      "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+      "domain": "Physical AI",
+      "scores": {"novelty": 8.2, "reproducibility": 8.0, "resource_cost": 6.5},
+      "weighted_total": 7.73,
+      "selected": true
+    },
+    {
+      "paper_id": "robocat_2023",
+      "title": "RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation",
+      "domain": "Robotics",
+      "scores": {"novelty": 8.0, "reproducibility": 6.0, "resource_cost": 4.0},
+      "weighted_total": 6.50,
+      "selected": false
+    },
+    {
+      "paper_id": "seer_2023",
+      "title": "SEER: Self-Supervised Visual Model-based RL for Vision-Language Grounding",
+      "domain": "VLM",
+      "scores": {"novelty": 7.7, "reproducibility": 6.8, "resource_cost": 5.5},
+      "weighted_total": 6.93,
+      "selected": false
+    }
+  ],
+  "scoring_policy": {
+    "formula": "0.45*novelty + 0.35*reproducibility + 0.20*resource_cost"
+  }
+}

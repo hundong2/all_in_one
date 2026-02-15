@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-02-15",
+  "relations": [
+    {
+      "from": "arxiv_2406_openvla",
+      "type": "EXTENDS",
+      "to": "rt2_2023"
+    },
+    {
+      "from": "rt2_2023",
+      "type": "IMPLEMENTS",
+      "to": "model_vla_token_action"
+    },
+    {
+      "from": "diffusion_policy_2023",
+      "type": "IMPLEMENTS",
+      "to": "model_action_diffusion"
+    },
+    {
+      "from": "arxiv_2406_openvla",
+      "type": "USES",
+      "to": "dataset_robot_demonstrations_multimodal"
+    },
+    {
+      "from": "diffusion_policy_2023",
+      "type": "USES",
+      "to": "dataset_trajectory_chunks"
+    }
+  ]
+}
