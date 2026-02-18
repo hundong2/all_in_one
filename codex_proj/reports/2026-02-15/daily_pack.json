@@ -24,7 +24,7 @@
       "smoke_log_path": "logs/openvla_smoke.log",
       "smoke_status": "PASS",
       "smoke_metrics": {
-        "loss": 0.705593
+        "loss": 0.386632
       }
     },
     {
@@ -50,7 +50,7 @@
       "smoke_log_path": "logs/rt2_smoke.log",
       "smoke_status": "PASS",
       "smoke_metrics": {
-        "loss": 5.607576
+        "loss": 5.593214
       }
     },
     {
@@ -76,7 +76,7 @@
       "smoke_log_path": "logs/diffusion_policy_smoke.log",
       "smoke_status": "PASS",
       "smoke_metrics": {
-        "loss": 1.118454
+        "loss": 1.071055
       }
     }
   ],

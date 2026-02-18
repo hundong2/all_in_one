@@ -1,5 +1,24 @@
 # Codex Team 기능 및 사용 방법 (공식 문서 기반)
 
+## 실행 명령 (Makefile)
+프로젝트 루트에서 아래 명령으로 한 번에 실행할 수 있습니다.
+
+```bash
+make help
+make run
+make run DATE=2026-02-15
+make serve
+make serve 5575
+make status
+make stop
+```
+
+- `make run`: venv 준비 -> 의존성 설치 -> smoke test 3종 실행 -> daily_pack smoke 상태 업데이트
+- `make serve`: 로컬 정적 서버 실행 (기본 포트 `8000`)
+- `make serve 5575`: 포트 `5575`로 로컬 서버 실행
+- `make stop`: 실행 중인 `make run`/`make serve` 프로세스 중지
+- `make status`: 현재 `run`/`serve` 상태 확인
+
 ## 빠른 시작 (처음 3분)
 1. 이 레포 루트에 `AGENTS.md`가 있는지 확인합니다.
 2. 로컬 스킬이 있는지 확인합니다.
